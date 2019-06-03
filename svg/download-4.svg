@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.789 23.789">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="icon-list" transform="translate(-3 -3)">
+    <path id="Path_4124" data-name="Path 4124" class="cls-1" d="M5.832,3A2.832,2.832,0,1,0,8.664,5.832,2.8,2.8,0,0,0,5.832,3Z"/>
+    <path id="Path_4125" data-name="Path 4125" class="cls-1" d="M5.832,19a2.832,2.832,0,1,0,2.832,2.832A2.8,2.8,0,0,0,5.832,19Z" transform="translate(0 -6.938)"/>
+    <path id="Path_4126" data-name="Path 4126" class="cls-1" d="M5.832,35a2.832,2.832,0,1,0,2.832,2.832A2.8,2.8,0,0,0,5.832,35Z" transform="translate(0 -13.875)"/>
+    <path id="Path_4127" data-name="Path 4127" class="cls-1" d="M33.16,7H19.566a.566.566,0,0,0,0,1.133H33.16A.566.566,0,0,0,33.16,7Z" transform="translate(-6.938 -1.734)"/>
+    <path id="Path_4128" data-name="Path 4128" class="cls-1" d="M33.16,23H19.566a.566.566,0,0,0,0,1.133H33.16a.566.566,0,0,0,0-1.133Z" transform="translate(-6.938 -8.672)"/>
+    <path id="Path_4129" data-name="Path 4129" class="cls-1" d="M33.16,39H19.566a.566.566,0,0,0,0,1.133H33.16a.566.566,0,0,0,0-1.133Z" transform="translate(-6.938 -15.609)"/>
+  </g>
+</svg>
