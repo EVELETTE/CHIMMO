@@ -5,22 +5,101 @@ header{
     height: 100vh;
     width: 100%;
     color: white;
+    font-family: Montserrat ;
 }
-.menu{
+.logo{
+    padding-right:10%;
+
+}
+nav{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%; 
+    border-bottom: 1px solid rgba(255, 225, 255, 0.6) ;
 }
 nav ul
 {
     list-style-type: none;
     display: flex;
-    align: right;
+    font-size: 13px;
+    font-weight: bold;  
+}
+nav li{
+    padding: 10px;
+}
+hr{
+    height: 80%;
 }
 .phone{
-    color: #74AAD5;
+    display: flex;
+    background-color: #74AAD5;
+    opacity: 1;
+    border-radius: 40%; 
+    padding: 8px;
+    
+}
+.icone_phone{
+    padding-left: 8px;
+}
+.info{
+    display: flex;
+    flex-direction: row-reverse; 
+}
+.IMMO h1{
+    font-size: 80px;
+    font-weight: bold;
+    line-height:20px; 
+}
+.IMMO p{
+    font-style: italic;
 }
 .IMMO{
+    margin-top: 8%;
+    margin-right: 20%;
+    /*line-height:20px;*/
+}
+.fleche{
+    background-color: white;
+    border-radius: 50% 50%;
+}
+.appart{
+    background-color: rgba(62, 63, 63, 0.8);
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 30%;
+    padding: 6px;
 
 }
+.rond{
+    display: flex;
+    justify-content: left;
+    margin-right:60%;
+    margin-top: 5%;
+
+    
+}
 .dispo{
-    color: #74AAD5;
+    background-color: #74AAD5;
+    border-radius: 50% 50%;
+    width:120px;
+    height:120px;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    font-weight: light;
+    margin-right: 14px; 
+    
+}
+
+.situation{
+    background-color: #FFFFFF;
+    border-radius: 50% 50%;
+    color: #13324B;
+    width:120px;
+    height:120px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
 }
