@@ -17,7 +17,7 @@ nav{
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%; 
-    border-bottom: 1px solid rgba(255, 225, 255, 0.6) ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6) ;
 }
 nav ul
 {
@@ -53,6 +53,8 @@ hr{
     line-height:20px; 
 }
 .IMMO p{
+    font-family: Droid Sans;
+    font-size: 26px;
     font-style: italic;
 }
 .IMMO{
@@ -63,10 +65,11 @@ hr{
 .fleche{
     background-color: white;
     border-radius: 50% 50%;
+    margin-right: 8px;
 }
 .appart{
     display: flex;
-    background-color: rgba(62, 63, 63, 0.8);
+    background-color: rgba(19, 50, 75, 0.6);
     font-size: 11px;
     font-weight: bold;
     border-radius: 16px 16px 16px 16px;
@@ -74,10 +77,14 @@ hr{
 
 }
 .rond{
+    font-family: Droid Sans;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
     display: flex;
     justify-content: left;
     margin-right:60%;
-    margin-top: 5%;
+    margin-top: 6%;
 
     
 }
@@ -103,4 +110,10 @@ hr{
     text-align: center;
     font-size: 15px;
     font-weight: lighter;
+}
+.fleche_bas{
+    margin-left: 50%;
+    border-radius: 50% 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+
 }
