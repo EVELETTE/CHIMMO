@@ -89,6 +89,9 @@ hr{
     
 }
 .dispo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #74AAD5;
     border-radius: 50% 50%;
     width:110px;
@@ -102,6 +105,9 @@ hr{
 }
 
 .situation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #FFFFFF;
     border-radius: 50% 50%;
     color: #13324B;
