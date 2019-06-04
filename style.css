@@ -36,7 +36,7 @@ hr{
     display: flex;
     background-color: #74AAD5;
     opacity: 1;
-    border-radius: 40%; 
+    border-radius: 16px 16px 16px 16px; 
     padding: 8px;
     
 }
@@ -65,11 +65,12 @@ hr{
     border-radius: 50% 50%;
 }
 .appart{
+    display: flex;
     background-color: rgba(62, 63, 63, 0.8);
     font-size: 11px;
     font-weight: bold;
-    border-radius: 30%;
-    padding: 6px;
+    border-radius: 16px 16px 16px 16px;
+    padding: 8px;
 
 }
 .rond{
@@ -83,8 +84,8 @@ hr{
 .dispo{
     background-color: #74AAD5;
     border-radius: 50% 50%;
-    width:120px;
-    height:120px;
+    width:110px;
+    height:110px;
     text-align: center;
     margin: auto;
     font-size: 15px;
@@ -97,8 +98,8 @@ hr{
     background-color: #FFFFFF;
     border-radius: 50% 50%;
     color: #13324B;
-    width:120px;
-    height:120px;
+    width:110px;
+    height:110px;
     text-align: center;
     font-size: 15px;
     font-weight: lighter;
