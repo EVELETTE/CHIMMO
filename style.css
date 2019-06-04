@@ -4,8 +4,10 @@ header{
     background-repeat: no-repeat; 
     height: 100vh;
     width: 100%;
+    box-shadow: -38px 80px 80px 0px rgba(19, 50, 75, 0.6) inset;
     color: white;
-    font-family: Montserrat ;
+    font-family: Montserrat;
+    
 }
 .logo{
     padding-right:10%;
@@ -69,6 +71,8 @@ hr{
 }
 .appart{
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(19, 50, 75, 0.6);
     font-size: 11px;
     font-weight: bold;
