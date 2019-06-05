@@ -4,10 +4,12 @@ header{
     background-repeat: no-repeat; 
     height: 100vh;
     width: 100%;
-    box-shadow: -38px 80px 80px 0px rgba(19, 50, 75, 0.6) inset;
     color: white;
     font-family: Montserrat;
     
+}
+.shadow{
+    box-shadow: 0px 120px 60px -16px rgba(19, 50, 75, 0.6) inset;
 }
 .logo{
     padding-right:10%;
@@ -19,7 +21,7 @@ nav{
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%; 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.6) ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) ;
 }
 nav ul
 {
@@ -30,9 +32,6 @@ nav ul
 }
 nav li{
     padding: 10px;
-}
-hr{
-    height: 80%;
 }
 .phone{
     display: flex;
@@ -126,4 +125,9 @@ hr{
     border-radius: 50% 50%;
     background-color: rgba(255, 255, 255, 0.6);
 
+}
+
+@media(min-width ) and (max-width ){
+
+    
 }
