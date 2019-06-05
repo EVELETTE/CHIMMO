@@ -1,14 +1,21 @@
 
 body{
+ margin: 0;
+ padding: 0;
+ min-width: 320px;
+}
+.blockgrille{
 
 }
+
   /* gridblock */
 .grille{
   display: grid;
-  grid-template-columns: repeat(12,110px);
-  grid-template-rows: repeat(2,200px);
-  padding: 10px 10px;
+  position: absolute;
+  grid-template-columns: repeat(10,15%);
+  grid-template-rows: repeat(2,47%);
   width: 720px;
+
 }
 .titreblock{
   grid-column: 1/4;
@@ -170,7 +177,7 @@ nav li{
 
 }
 
-@media(min-width ) and (max-width ){
+@media(min- ) and (max-width ){
 
 
 }
