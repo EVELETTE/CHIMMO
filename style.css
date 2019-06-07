@@ -1,91 +1,188 @@
-
-
-.Bridge_part
+body
 {
-  position: relative;
-  margin-top: 70%;
+  padding: 0;
+  margin: 0;
+  display: grid;
 }
+#contener_photo
+{
+  grid-row: 1/1;
+  display: flex;
+  justify-content: center;
 
-/**/
-.block-shadow
+}
+.photo
+{
+  background-color: blue;
+  width: 800px;
+  height: 500px;
+
+}
+#contener
+{
+  grid-row: 2/2;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5em;
+}
+.element
 {
   text-align: center;
+  background-color:white;
 
+  box-shadow: 10px 0px 10px rgba(252, 251, 247,1);
+
+  align-self: center;
   height: 500px;
-  width: 500px;
-  color: grey;
+  width: 390px;
 
-  box-shadow: 1px 1px 10px rgba(252, 251, 247,1);
+  text-align: center;
+
+  display: inline-block;
+  position: relative;
+
+  top: 2em;
+  bottom: 2em;
+}
+.element:nth-child(2)
+{
+  margin: 10px;
+}
+
+.title_element
+{
+  position: relative;
+  transform: translate(0,-50px);
+
+
+  /* TEXT FORMAT */
+
+  font-family: "Montserrat";
+  font-size: 25px;
+  color: #13324B;
+}
+
+.icon
+{
+  background-color: #75aad6;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+
+
+
+  position: relative;
+  left: 50%;
+
+  transform: translate(50%,-150%);
+
+
+}
+.icon_svg
+{
+
+  width: 50%;
+  height: 50%;
+
+  /*
+  Pour centrer l'image de l'icon
+  par rapport a son parent qui doit etre position : Relative .
+  Sinon par defaut ce dernier prend les propriété du body
+  */
+
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.checkList
+{
+  list-style-image: url("svg/download-3.svg");
+  text-align: justify;
+}
+.checkList li
+{
+  border-bottom: 1px solid rgba(252, 251, 247,1);
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  /* TEXT FORMAT */
+
+  font-family: "Montserrat";
+  font-size: 15px;
 }
 
 
 
-.titre
-{
-  font-family: "Montserrat";
-  font-size: 50px;
-  font-weight: bold;
 
+
+#contener_photo
+{
+  display: flex;
+  justify-content: center;
+}
+
+.element_content
+{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+
+}
+.text
+{
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
 }
 #F
 {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: bold;
   color: #13324B;
 }
 #C
 {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: bold;
   color: #74AAD5;
 }
 
-/* ELEMENTS DE CONTACT */
-
-.contact li
-{
-  display: inline-block;
-
-}
-
-.arrowCircle
-{
-  background-color: #74AAD5;
-  height: 15px;
-  width: 15px;
-  border-radius: 40px;
-  border-color: #74AAD5;
-  border: 10px solid;
-
-}
 .button
 {
-  font-family: "Montserrat";
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  padding: auto;
-  border-radius: 50px;
-  border-color: #133224;
-  border: 2px solid;
-  color: #74AAD5;
-  font-size: 15px;
+
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  right: 10%;
+
+  transform: translate(0,-50%);
   width: 200px;
-}
-.button_container li
-{
-  /* TODO: ALIGNER CE PUTIN DE BOUTON ET CE TEXT !!!!! */
+  height: 50px;
+  border: 1px solid #13324B;
+  border-radius: 25px;
+
+
 }
 
-/* ELEMENTS DU FOOTER */
-.footer
+.Footer
 {
+  grid-row: 4/4;
+  padding: 2em;
+  top: 10em;
+  bottom: 0;
   background-color: #13324B;
-  font-family: "Montserrat";
-  font-size: 15px;
-  width: 100%;
-
+  display: flex;
+  justify-content: space-around;
 }
 .footer_nav li
 {
-  display: inline-block;
-  padding: 30px;
+  display: inline-flex;
 }
 .logo
 {
@@ -96,3 +193,73 @@ a
   text-decoration: none;
   color: #FFFFFF;
 }
+
+/* TODO: ADAPTATION MEDIA */
+/* @media screen and (max-width: 720px)
+{
+  #contener_button
+  {
+    display:inline-flex;
+    justify-content:space-between;
+  }
+}
+@media screen and (max-width: 480px)
+{
+  #contener
+  {
+    display: block;
+  }
+  .element
+  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .element:nth-child(2)
+  {
+    margin: 0;
+  }
+
+  #contener_button
+  {
+    display:block;
+  }
+  .Footer
+  {
+    display: block;
+
+  }
+}
+@media screen and (min-width: 256px) and (max-width: 480px)
+{
+  #contener
+  {
+    display: block;
+  }
+  .element
+  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .element:nth-child(2)
+  {
+    margin: 0;
+  }
+
+  #contener_button
+  {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .button
+  {
+    margin: 0;
+  }
+  .Footer
+  {
+    display: block;
+
+  }
+} */
