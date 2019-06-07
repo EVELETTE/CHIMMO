@@ -175,7 +175,7 @@ nav li{
     background-color: rgba(255, 255, 255, 0.6);
 
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 600px) {         /* VERSION MOBILE Jess*/
     header{
        width: 100%;
        height: 300px; 
@@ -223,9 +223,14 @@ nav li{
         display: block;
         background-color: #74AAD5;
         border-radius: 50% 50%;
-        width: 18px;
-        height: 18px;
-        margin-right: 20px;
+        width: 20px;
+        height: 20px;
+        /* margin-right: 20px; */
+    }
+    .icone_phone_mobile{
+        margin-left: 2px;
+        width: 6px;
+        height: 6px;
     }
    .phone{
        display: none;
@@ -264,3 +269,105 @@ nav li{
         display: none;
     }
  }
+
+ @media all and (max-width: 1000px) {
+
+    header{
+        width: 100%;
+        height: 300px; 
+        background-size: cover;
+        background-position: center; 
+     }
+     nav{
+         justify-content: space-between;
+     }
+     .menu {
+         display: none;
+         background-color: rgba(255, 255, 255, 0.4);
+         position: absolute;
+         font-size: 6px;
+         margin-top: 18px;
+         border-radius: 8px 8px 8px 8px; 
+     }
+     .logo_menu_mobile{
+         display: flex;
+     }
+ 
+     .dn{
+         display: block;
+     }
+     .logo{ 
+         width: 50px;
+         height: 25px;
+ 
+     }
+     
+     .bouttons_dn{
+         display: flex;
+         /* justify-content: right; */
+         
+     } 
+     .menu_mobile:checked ~ .menu {
+         display: block;
+     }
+     .menu_mobile {
+         opacity: 0;
+         position: absolute;
+         top: -1000px;
+     }
+     .phone_mobile{
+         display: block;
+         background-color: #74AAD5;
+         border-radius: 50% 50%;
+         width: 18px;
+         height: 18px;
+         margin-right: 20px;
+     }
+    .phone{
+        display: none;
+    }
+     .info{
+         flex-direction: initial;
+         width: 60%;
+     }
+     .IMMO{
+         position: relative;
+         margin-left: 40px;
+         top: 24px;
+ 
+     }
+     .IMMO h1{
+         font-size: 60px;
+     }
+     .IMMO p{
+         font-size: 22px;
+     }
+     .titre_soustitre{
+         margin-top: 60%;
+     }
+     .fleche_bas{
+         display: none;
+     }
+     .shadow{
+         box-shadow: 0px 120px 60px -32px rgba(19, 50, 75, 0.6) inset;
+     }
+     .appart{
+         background-color: rgba(19, 50, 75, 1);
+         width: 220px; 
+         margin-left: 260%;
+         margin-top: -48px;
+         font-size: 10px;
+         text-align: center;
+         position: absolute;
+        
+     }
+     .fleche{
+        margin-right: 40px;
+     }
+     .rond{
+         margin-top: 6%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 200%;
+     }
+    }
